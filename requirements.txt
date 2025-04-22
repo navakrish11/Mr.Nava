@@ -2,4 +2,4 @@ streamlit
 wikipedia
 requests
 llama-cpp-python
-"huggingface_hub" 
+huggingface_hub 
