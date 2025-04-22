@@ -1,8 +1,9 @@
 import streamlit as st
 from llama_cpp import Llama
+from huggingface_hub import hf_hub_download
 
 # ---- Set your model path here ----
-MODEL_PATH = "C:\\Users\\navak\\Downloads\\WebSearchChatbot\\WebSearchChatbot\\models\\capybarahermes-2.5-mistral-7b.Q5_K_S.gguf"
+model_path = hf_hub_download(repo_id="navakrish11/mr-nava", filename="models/capybarahermes-2.5-mistral-7b.Q5_K_S.gguf")
 
 # ---- Set up Streamlit UI ----
 st.set_page_config(page_title="Mr.Nava (Offline Mode)", page_icon="🧠")

@@ -1,0 +1,1 @@
+echo "# WebSearchChatbot\n\nModel file: [capybarahermes-2.5-mistral-7b.Q5_K_S.gguf](https://huggingface.co/navakrish11/mr-nava/resolve/main/models/capybarahermes-2.5-mistral-7b.Q5_K_S.gguf)" > README.md
